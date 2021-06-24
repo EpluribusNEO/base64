@@ -1,0 +1,48 @@
+body {
+	background-color: white;
+	font-family: Sans-Serif;
+	text-align: center;
+	font-size: 16pt; 
+	background: #ddd;
+}
+a{ color: #3d5ed5;}
+h1 { margin-bottom: 0.1em; }
+h2 { font-size: 1em; font-weight: normal; margin: 0 auto 5em auto; }
+
+#choice{
+  border: 2px solid #000; 
+  border-radius: 5px;
+  padding: 0.0em;
+  height: 1.8em; 
+  margin: 0.2em; }
+
+.arrow {
+	font-size: 2.0em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.warning {
+	
+	background-color: #fff;
+	border:4px dotted #ff5050;
+	padding: 0.6em 1.2em;
+}
+
+.btnBase64{
+    margin: 0.2em;
+	background: #3d5ed5;
+	border: 2px solid #000;
+	color: #fff;
+	border-radius: 5px;
+	width: auto;
+	height: 45px;
+	cursor: pointer;
+}
+
+.created{
+	font-size: 10pt;
+	line-height: 1.5;
+	font-weight: bold;
+	color: #d54b3d;
+}

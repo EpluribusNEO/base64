@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Base64</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+  <script src="jscript/myscript.js"></script>
+</head>
+<body>
+  <h1>Base64</h1>
+  <noscript>
+		<p>
+			<span class="warning"><i>Please enable JavaScript and refresh this page</i></span>
+		</p>
+	</noscript>
+	
+	<div>
+		<textarea id="indata" cols="80" rows="12" autofocus></textarea>
+	</div>
+	
+	<div>
+      <select id="choice" size="1">
+        <option value='e'>Encode</option>
+        <option value='d'>Decode</option>
+      </select>
+      <input class="btnBase64" type="button" value="Execute " onclick="execute()">
+	</div>
+	
+	<div>
+		<textarea id="outdata" cols="80" rows="12" readonly></textarea>
+	</div>
+	
+    <p class="created">
+		Created by: EPluribusNEO<br>
+		Get the source code: <a href="https://github.com/EpluribusNEO/base64" target="_blank">GitHub</a>
+	</p>
+	
+</body>
+</html>
